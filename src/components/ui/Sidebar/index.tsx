@@ -1,9 +1,10 @@
 "use client";
 
-import { useSidebar } from "@/lib/zustand/stores/sidebar";
 import { House, UsersThree } from "phosphor-react";
 import { Fragment } from "react";
 import { twMerge } from "tailwind-merge";
+
+import { useSidebar } from "@/lib/zustand/stores/sidebar";
 
 import { SidebarHeader } from "./Header";
 import Item from "./Item";

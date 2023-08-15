@@ -21,5 +21,9 @@ const styles = tv({
 type AvatarProps = ComponentProps<"div"> & VariantProps<typeof styles>;
 
 export function Avatar({ size, ...props }: AvatarProps) {
-  return <div className={styles({ size })} {...props} />;
+  return (
+    <div className="block">
+      <div className={styles({ size })} {...props} />
+    </div>
+  );
 }

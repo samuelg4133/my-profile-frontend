@@ -3,10 +3,7 @@ import { Inter } from "next/font/google";
 import { PropsWithChildren } from "react";
 import { twMerge } from "tailwind-merge";
 
-import { Header } from "@/components/Header";
-import { Main } from "@/components/Main";
-import { Sidebar } from "@/components/Sidebar";
-import { Wrapper } from "@/components/Wrapper";
+import { Header, Main, Sidebar, Wrapper } from "@/components/ui";
 
 import "./globals.css";
 

@@ -1,4 +1,4 @@
-import { Headline600 } from "@/components/Typography/Headline";
+import { Headline600 } from "@/components/ui";
 
 export default function Home() {
   return (
